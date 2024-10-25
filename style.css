@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Share+Tech+Mono&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Share Tech Mono", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(pics/Vowels-and-Consonants-For-Kids.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: left;
+
+}
+.main-div{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    
+}
+h1{
+    text-transform: uppercase;
+}
+h1:hover{
+    text-decoration: underline;
+    color: rgb(67, 63, 63);
+}
+input{
+    width: 60%;
+    height: 40px;
+    font-size: 30px;
+    border: 1px solid white;
+    background-color: rgba(237, 185, 88, 0.5);
+    border-radius: 20px;
+    text-align: center;
+}
+input:hover{
+    border: 1px solid black;
+    box-shadow: 0px 4px 10px rgba(255, 165, 0, 0.4);
+}
+button{
+    width: 10%;
+    height: 30px;
+    border-radius: 25px;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: rgba(94, 91, 86, 0.5);
+}
+button:hover{
+    border: 1px solid black;
+    box-shadow: 0px 4px 10px rgba(71, 75, 67, 0.4);
+}
+#answer{
+    border: 1px solid black;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+/* medoa qieoru */
+@media (max-width: 698px) {
+    body{
+        font-size: 25px;
+    }
+    button{
+        font-size: 15px;
+    }
+    input{
+        font-size: 25px;
+    }
+}
+@media (max-width: 507px) {
+    button{
+        width: 15%;
+    }
+}
+@media (max-width: 367px) {
+    body{
+        font-size: 22px;
+    }
+    input{
+        font-size: 25px;
+    }
+}
