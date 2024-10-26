@@ -1,5 +1,6 @@
 function toCheck(){
     let userInput = document.getElementById("userInp").value;
+    userInput = userInput.toLowerCase();
     if(userInput.indexOf("a")!=-1 || userInput.indexOf("e")!=-1 ||userInput.indexOf("i")!=-1 ||
     userInput.indexOf("o")!=-1 ||userInput.indexOf("u")!=-1){
        let answer = document.getElementById("answer")
